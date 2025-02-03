@@ -1,0 +1,309 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Body Styles */
+html, body {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Header Styling */
+header {
+    background-color: #2C3E50; /* Dark Blue */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header .logo h1 {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 1rem;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3498DB; /* Light Blue on hover */
+}
+
+/* Skills Section Styling */
+.skills {
+    background-image: url('your-background-image.jpg'); /* Add your background image here */
+    background-size: cover; /* Cover the entire section */
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-content {
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.skills h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.skills p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Individual Skill Section Styling */
+.skills-overview {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.skill {
+    background-color: #34495E;
+    padding: 20px;
+    border-radius: 8px;
+    width: 45%;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.skill h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #F39C12; /* Gold for headers */
+}
+
+.skill p {
+    font-size: 1rem;
+    color: #BDC3C7; /* Light Gray text */
+}
+
+/* Extra Skills Section Styling */
+.extra-skill {
+    background-color: #2C3E50;
+    padding: 20px;
+    border-radius: 8px;
+    width: 100%;
+    text-align: left;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-top: 30px;
+}
+
+.extra-skill h3 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    color: #F39C12;
+}
+
+.extra-skill p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #BDC3C7;
+}
+
+/* Custom Professional Bullets */
+.professional-bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.professional-bullets li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #BDC3C7;
+}
+
+.professional-bullets li .bullet {
+    color: #F39C12; /* Gold bullet color */
+    margin-right: 10px;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2C3E50; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+/* Home Section Styling */
+.home {
+    background-image: url('your-background-image.jpg'); /* Add your background image here */
+    background-size: cover; /* Cover the entire section */
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home-content {
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.home h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.home p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* About Section Styling */
+.about {
+    background-image: url('your-background-image.jpg'); /* Add your background image here */
+    background-size: cover; /* Cover the entire section */
+    background-position: center;
+    color: rgb(233, 220, 220);
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-content {
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.about h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.about p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+/* Custom Professional Bullets for Home & About */
+.professional-bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.professional-bullets li {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    color: #BDC3C7;
+}
+
+.professional-bullets li .bullet {
+    color: #F39C12; /* Gold bullet color */
+    margin-right: 10px;
+}
+/* Contact Section Styling */
+.contact {
+    background-image: url('your-background-image.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 80px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-content {
+    max-width: 1000px;
+    background-color: rgba(0, 0, 0, 0.6); /* Dark overlay for readability */
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.contact h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.professional-bullets {
+    list-style: none;
+    padding-left: 0;
+}
+
+.professional-bullets li {
+    font-size: 1.1rem;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    color: #BDC3C7;
+}
+
+.professional-bullets li .bullet {
+    color: #F39C12; /* Gold color for bullets */
+    margin-right: 10px;
+}
+
+.professional-bullets a {
+    color: #3498DB; /* Light Blue color for links */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.professional-bullets a:hover {
+    color: #2980B9; /* Darker blue on hover */
+}
+
+/* Footer Styling */
+footer {
+    background-color: #2C3E50; /* Dark Blue */
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
